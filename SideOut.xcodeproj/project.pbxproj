@@ -14,6 +14,11 @@
 		5762A3451AA54EC3001CA782 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5762A3441AA54EC3001CA782 /* Images.xcassets */; };
 		5762A3481AA54EC3001CA782 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5762A3461AA54EC3001CA782 /* LaunchScreen.xib */; };
 		5762A3541AA54EC3001CA782 /* SideOutTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 5762A3531AA54EC3001CA782 /* SideOutTests.m */; };
+		5762A35F1AA55AD9001CA782 /* PhotoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5762A35E1AA55AD9001CA782 /* PhotoViewController.m */; };
+		5762A3621AA56252001CA782 /* MainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5762A3611AA56252001CA782 /* MainViewController.m */; };
+		5762A3651AA562C8001CA782 /* MapViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5762A3641AA562C8001CA782 /* MapViewController.m */; };
+		5762A3681AA56343001CA782 /* SideBarTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5762A3671AA56343001CA782 /* SideBarTableViewController.m */; };
+		5762A36C1AA56452001CA782 /* SWRevealViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5762A36B1AA56452001CA782 /* SWRevealViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,6 +45,16 @@
 		5762A34D1AA54EC3001CA782 /* SideOutTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SideOutTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		5762A3521AA54EC3001CA782 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		5762A3531AA54EC3001CA782 /* SideOutTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SideOutTests.m; sourceTree = "<group>"; };
+		5762A35D1AA55AD9001CA782 /* PhotoViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PhotoViewController.h; sourceTree = "<group>"; };
+		5762A35E1AA55AD9001CA782 /* PhotoViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PhotoViewController.m; sourceTree = "<group>"; };
+		5762A3601AA56252001CA782 /* MainViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MainViewController.h; sourceTree = "<group>"; };
+		5762A3611AA56252001CA782 /* MainViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MainViewController.m; sourceTree = "<group>"; };
+		5762A3631AA562C8001CA782 /* MapViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MapViewController.h; sourceTree = "<group>"; };
+		5762A3641AA562C8001CA782 /* MapViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MapViewController.m; sourceTree = "<group>"; };
+		5762A3661AA56343001CA782 /* SideBarTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SideBarTableViewController.h; sourceTree = "<group>"; };
+		5762A3671AA56343001CA782 /* SideBarTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SideBarTableViewController.m; sourceTree = "<group>"; };
+		5762A36A1AA56452001CA782 /* SWRevealViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SWRevealViewController.h; sourceTree = "<group>"; };
+		5762A36B1AA56452001CA782 /* SWRevealViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SWRevealViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -81,14 +96,23 @@
 		5762A3361AA54EC3001CA782 /* SideOut */ = {
 			isa = PBXGroup;
 			children = (
+				5762A3691AA56410001CA782 /* SWRevealViewController */,
 				5762A33B1AA54EC3001CA782 /* AppDelegate.h */,
 				5762A33C1AA54EC3001CA782 /* AppDelegate.m */,
 				5762A33E1AA54EC3001CA782 /* ViewController.h */,
 				5762A33F1AA54EC3001CA782 /* ViewController.m */,
 				5762A3411AA54EC3001CA782 /* Main.storyboard */,
+				5762A35D1AA55AD9001CA782 /* PhotoViewController.h */,
+				5762A35E1AA55AD9001CA782 /* PhotoViewController.m */,
 				5762A3441AA54EC3001CA782 /* Images.xcassets */,
 				5762A3461AA54EC3001CA782 /* LaunchScreen.xib */,
 				5762A3371AA54EC3001CA782 /* Supporting Files */,
+				5762A3601AA56252001CA782 /* MainViewController.h */,
+				5762A3611AA56252001CA782 /* MainViewController.m */,
+				5762A3631AA562C8001CA782 /* MapViewController.h */,
+				5762A3641AA562C8001CA782 /* MapViewController.m */,
+				5762A3661AA56343001CA782 /* SideBarTableViewController.h */,
+				5762A3671AA56343001CA782 /* SideBarTableViewController.m */,
 			);
 			path = SideOut;
 			sourceTree = "<group>";
@@ -117,6 +141,15 @@
 				5762A3521AA54EC3001CA782 /* Info.plist */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		5762A3691AA56410001CA782 /* SWRevealViewController */ = {
+			isa = PBXGroup;
+			children = (
+				5762A36A1AA56452001CA782 /* SWRevealViewController.h */,
+				5762A36B1AA56452001CA782 /* SWRevealViewController.m */,
+			);
+			name = SWRevealViewController;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -220,7 +253,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				5762A3401AA54EC3001CA782 /* ViewController.m in Sources */,
+				5762A35F1AA55AD9001CA782 /* PhotoViewController.m in Sources */,
 				5762A33D1AA54EC3001CA782 /* AppDelegate.m in Sources */,
+				5762A36C1AA56452001CA782 /* SWRevealViewController.m in Sources */,
+				5762A3651AA562C8001CA782 /* MapViewController.m in Sources */,
+				5762A3681AA56343001CA782 /* SideBarTableViewController.m in Sources */,
+				5762A3621AA56252001CA782 /* MainViewController.m in Sources */,
 				5762A33A1AA54EC3001CA782 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
