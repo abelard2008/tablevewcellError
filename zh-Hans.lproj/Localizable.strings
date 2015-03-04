@@ -1,0 +1,14 @@
+/* 
+  Localizable.strings
+  SideOut
+
+  Created by 贾利琴 on 3/4/15.
+  Copyright (c) 2015 lawSet. All rights reserved.
+*/
+"News" = "新闻组";
+"Comments" = "评论";
+"Bookmarks" = "书签";
+"Tags" = "标签";
+"Calendar" = "日历";
+"Map" = "地图";
+"Label" = "可以吗";

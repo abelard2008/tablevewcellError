@@ -8,7 +8,7 @@
 
 #import "SideBarTableViewController.h"
 #import "SWRevealViewController.h"
-
+#import "MainMenuCellTableViewCell.h"
 
 @interface SideBarTableViewController ()
 
@@ -16,18 +16,15 @@
 
 @implementation SideBarTableViewController
 
- NSArray *menuItems;
+ NSArray *menuItems, *menuLabels;
+
 
 - (void)viewDidLoad {
     [super viewDidLoad];
     
-    menuItems = @[@"title", @"news", @"comments", @"map", @"calendar", @"wishlist", @"bookmark", @"tag"];
-
-    // Uncomment the following line to preserve selection between presentations.
-    // self.clearsSelectionOnViewWillAppear = NO;
+    menuItems = @[@"title", @"news", @"comments", @"map", @"calendar", @"wishlist", @"bookmarks", @"tags"];
+    menuLabels = [NSArray arrayWithObjects: @"APPCODA",  NSLocalizedString(@"News",nil),NSLocalizedString(@"Comments",nil),  NSLocalizedString(@"Map",nil),  NSLocalizedString(@"Calendar",nil),  NSLocalizedString(@"Wishlist",nil),  NSLocalizedString(@"Bookmarks",nil),  NSLocalizedString(@"Tags", nil), nil];
     
-    // Uncomment the following line to display an Edit button in the navigation bar for this view controller.
-    // self.navigationItem.rightBarButtonItem = self.editButtonItem;
 }
 
 - (void)didReceiveMemoryWarning {
@@ -49,16 +46,29 @@
 }
 
 
+
+#define kImageViewTag 1
+
 - (UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath {
     
     NSString *CellIdentifier = [menuItems objectAtIndex:indexPath.row];
+    NSString *CellLabel = [menuLabels objectAtIndex:indexPath.row];
     UITableViewCell *cell = [tableView dequeueReusableCellWithIdentifier:CellIdentifier forIndexPath:indexPath];
+    cell.textLabel.text = CellLabel;
+    tableView.rowHeight = 83;
     
-   // NSString *CellIdentifier = [menuItems objectAtIndex:indexPath.row];
-    // Configure the cell...
-   // UITableViewCell *cell = [tableView dequeueReusableCellWithIdentifier:CellIdentifier forIndexPath:indexPath];
+     UIImage* im = [UIImage imageNamed: @"news"];
+    cell.imageView.image = im;
 
-    return cell;
+    UIGraphicsBeginImageContextWithOptions(CGSizeMake(32,32), YES, 0);
+    [im drawInRect:CGRectMake(0,0,32,32)];
+    UIImage* im2 = UIGraphicsGetImageFromCurrentImageContext();
+    UIGraphicsEndImageContext();
+    cell.imageView.image = im2;
+    cell.imageView.contentMode = UIViewContentModeCenter;
+
+    
+   return cell;
 }
 
 

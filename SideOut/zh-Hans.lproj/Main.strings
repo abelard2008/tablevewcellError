@@ -1,0 +1,33 @@
+
+/* Class = "IBUIViewController"; title = "Map View Controller"; ObjectID = "0nn-fJ-Vq7"; */
+"0nn-fJ-Vq7.title" = "Map View Controller";
+
+/* Class = "IBUITableViewController"; title = "SideBar"; ObjectID = "CKI-ir-gLt"; */
+"CKI-ir-gLt.title" = "SideBar";
+
+/* Class = "IBUILabel"; text = "Bookmarks"; ObjectID = "V2R-gJ-D1p"; */
+"V2R-gJ-D1p.text" = "Bookmarks";
+
+/* Class = "IBUILabel"; text = "News Frontpage"; ObjectID = "VHf-px-AdC"; */
+"VHf-px-AdC.text" = "News Frontpage";
+
+/* Class = "IBUILabel"; text = "Map"; ObjectID = "VIQ-xw-PH5"; */
+"VIQ-xw-PH5.text" = "Map";
+
+/* Class = "IBUILabel"; text = "Tags"; ObjectID = "XEL-Kp-cc1"; */
+"XEL-Kp-cc1.text" = "Tags";
+
+/* Class = "IBUINavigationItem"; title = "sfdfsdfas"; ObjectID = "bgp-up-IdN"; */
+"bgp-up-IdN.title" = "sfdfsdfas";
+
+/* Class = "IBUILabel"; text = "Wishlist"; ObjectID = "dmB-BW-Nae"; */
+"dmB-BW-Nae.text" = "Wishlist";
+
+/* Class = "IBUILabel"; text = "Calendar"; ObjectID = "hAo-HO-JNL"; */
+"hAo-HO-JNL.text" = "Calendar";
+
+/* Class = "IBUILabel"; text = "Label"; ObjectID = "sgT-Xi-o7R"; */
+"sgT-Xi-o7R.text" = "Label";
+
+/* Class = "IBUILabel"; text = "APPCODA"; ObjectID = "z1y-in-pd0"; */
+"z1y-in-pd0.text" = "APPCODA";

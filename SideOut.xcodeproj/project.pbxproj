@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		571CB5691AA73A0900195169 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 571CB56B1AA73A0900195169 /* Localizable.strings */; };
 		5762A33A1AA54EC3001CA782 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 5762A3391AA54EC3001CA782 /* main.m */; };
 		5762A33D1AA54EC3001CA782 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 5762A33C1AA54EC3001CA782 /* AppDelegate.m */; };
 		5762A3401AA54EC3001CA782 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5762A33F1AA54EC3001CA782 /* ViewController.m */; };
@@ -19,6 +20,9 @@
 		5762A3651AA562C8001CA782 /* MapViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5762A3641AA562C8001CA782 /* MapViewController.m */; };
 		5762A3681AA56343001CA782 /* SideBarTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5762A3671AA56343001CA782 /* SideBarTableViewController.m */; };
 		5762A36C1AA56452001CA782 /* SWRevealViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5762A36B1AA56452001CA782 /* SWRevealViewController.m */; };
+		5762A36E1AA5C2CF001CA782 /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5762A36D1AA5C2CF001CA782 /* MapKit.framework */; };
+		5762A37D1AA65D4B001CA782 /* SidebarItem.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5762A37C1AA65D4B001CA782 /* SidebarItem.xib */; };
+		5762A38C1AA6A581001CA782 /* MainMenuCellTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 5762A38B1AA6A581001CA782 /* MainMenuCellTableViewCell.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -32,6 +36,10 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		571CB5651AA739CA00195169 /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hans"; path = "zh-Hans.lproj/Main.strings"; sourceTree = "<group>"; };
+		571CB5661AA739CA00195169 /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hans"; path = "zh-Hans.lproj/LaunchScreen.strings"; sourceTree = "<group>"; };
+		571CB56A1AA73A0900195169 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Localizable.strings; sourceTree = "<group>"; };
+		571CB56C1AA73A0B00195169 /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hans"; path = "zh-Hans.lproj/Localizable.strings"; sourceTree = "<group>"; };
 		5762A3341AA54EC3001CA782 /* SideOut.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SideOut.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		5762A3381AA54EC3001CA782 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		5762A3391AA54EC3001CA782 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -55,6 +63,10 @@
 		5762A3671AA56343001CA782 /* SideBarTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SideBarTableViewController.m; sourceTree = "<group>"; };
 		5762A36A1AA56452001CA782 /* SWRevealViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SWRevealViewController.h; sourceTree = "<group>"; };
 		5762A36B1AA56452001CA782 /* SWRevealViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SWRevealViewController.m; sourceTree = "<group>"; };
+		5762A36D1AA5C2CF001CA782 /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
+		5762A37C1AA65D4B001CA782 /* SidebarItem.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = SidebarItem.xib; path = ../SidebarItem.xib; sourceTree = "<group>"; };
+		5762A38A1AA6A581001CA782 /* MainMenuCellTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MainMenuCellTableViewCell.h; sourceTree = "<group>"; };
+		5762A38B1AA6A581001CA782 /* MainMenuCellTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MainMenuCellTableViewCell.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -62,6 +74,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5762A36E1AA5C2CF001CA782 /* MapKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -78,6 +91,7 @@
 		5762A32B1AA54EC3001CA782 = {
 			isa = PBXGroup;
 			children = (
+				5762A36D1AA5C2CF001CA782 /* MapKit.framework */,
 				5762A3361AA54EC3001CA782 /* SideOut */,
 				5762A3501AA54EC3001CA782 /* SideOutTests */,
 				5762A3351AA54EC3001CA782 /* Products */,
@@ -96,6 +110,8 @@
 		5762A3361AA54EC3001CA782 /* SideOut */ = {
 			isa = PBXGroup;
 			children = (
+				571CB56B1AA73A0900195169 /* Localizable.strings */,
+				5762A37C1AA65D4B001CA782 /* SidebarItem.xib */,
 				5762A3691AA56410001CA782 /* SWRevealViewController */,
 				5762A33B1AA54EC3001CA782 /* AppDelegate.h */,
 				5762A33C1AA54EC3001CA782 /* AppDelegate.m */,
@@ -113,6 +129,8 @@
 				5762A3641AA562C8001CA782 /* MapViewController.m */,
 				5762A3661AA56343001CA782 /* SideBarTableViewController.h */,
 				5762A3671AA56343001CA782 /* SideBarTableViewController.m */,
+				5762A38A1AA6A581001CA782 /* MainMenuCellTableViewCell.h */,
+				5762A38B1AA6A581001CA782 /* MainMenuCellTableViewCell.m */,
 			);
 			path = SideOut;
 			sourceTree = "<group>";
@@ -201,6 +219,11 @@
 				TargetAttributes = {
 					5762A3331AA54EC3001CA782 = {
 						CreatedOnToolsVersion = 6.1.1;
+						SystemCapabilities = {
+							com.apple.Maps.iOS = {
+								enabled = 1;
+							};
+						};
 					};
 					5762A34C1AA54EC3001CA782 = {
 						CreatedOnToolsVersion = 6.1.1;
@@ -215,6 +238,7 @@
 			knownRegions = (
 				en,
 				Base,
+				"zh-Hans",
 			);
 			mainGroup = 5762A32B1AA54EC3001CA782;
 			productRefGroup = 5762A3351AA54EC3001CA782 /* Products */;
@@ -232,7 +256,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				571CB5691AA73A0900195169 /* Localizable.strings in Resources */,
 				5762A3431AA54EC3001CA782 /* Main.storyboard in Resources */,
+				5762A37D1AA65D4B001CA782 /* SidebarItem.xib in Resources */,
 				5762A3481AA54EC3001CA782 /* LaunchScreen.xib in Resources */,
 				5762A3451AA54EC3001CA782 /* Images.xcassets in Resources */,
 			);
@@ -253,6 +279,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				5762A3401AA54EC3001CA782 /* ViewController.m in Sources */,
+				5762A38C1AA6A581001CA782 /* MainMenuCellTableViewCell.m in Sources */,
 				5762A35F1AA55AD9001CA782 /* PhotoViewController.m in Sources */,
 				5762A33D1AA54EC3001CA782 /* AppDelegate.m in Sources */,
 				5762A36C1AA56452001CA782 /* SWRevealViewController.m in Sources */,
@@ -282,10 +309,21 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
+		571CB56B1AA73A0900195169 /* Localizable.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				571CB56A1AA73A0900195169 /* en */,
+				571CB56C1AA73A0B00195169 /* zh-Hans */,
+			);
+			name = Localizable.strings;
+			path = ..;
+			sourceTree = "<group>";
+		};
 		5762A3411AA54EC3001CA782 /* Main.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
 				5762A3421AA54EC3001CA782 /* Base */,
+				571CB5651AA739CA00195169 /* zh-Hans */,
 			);
 			name = Main.storyboard;
 			sourceTree = "<group>";
@@ -294,6 +332,7 @@
 			isa = PBXVariantGroup;
 			children = (
 				5762A3471AA54EC3001CA782 /* Base */,
+				571CB5661AA739CA00195169 /* zh-Hans */,
 			);
 			name = LaunchScreen.xib;
 			sourceTree = "<group>";
@@ -452,6 +491,7 @@
 				5762A3591AA54EC3001CA782 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		5762A35A1AA54EC3001CA782 /* Build configuration list for PBXNativeTarget "SideOutTests" */ = {
 			isa = XCConfigurationList;
@@ -460,6 +500,7 @@
 				5762A35C1AA54EC3001CA782 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
